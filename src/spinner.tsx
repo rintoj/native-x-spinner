@@ -27,7 +27,7 @@ export function Spinner({
     <ActivityIndicator
       size={indicatorSize}
       animating={animating}
-      color={getColor(color)}
+      color={getColor?.(color)}
       style={scale}
     />
   )
